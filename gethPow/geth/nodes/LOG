@@ -1,0 +1,34 @@
+=============== Dec 11, 2018 (KST) ===============
+10:24:03.689832 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:24:03.696366 db@open opening
+10:24:03.699670 version@stat F·[] S·0B[] Sc·[]
+10:24:03.700166 db@janitor F·2 G·0
+10:24:03.700202 db@open done T·3.798514ms
+10:35:09.863733 memdb@flush N·41626 S·3MiB
+10:35:09.889539 memdb@flush created L0@3 N·41626 S·1MiB "n:\x00..ver,v8999":"version,v1"
+10:35:09.889606 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+10:35:09.889843 memdb@flush committed F·1 T·26.037784ms
+10:35:09.890460 journal@remove removed @1
+10:46:44.252165 memdb@flush N·42648 S·3MiB
+10:46:44.277747 memdb@flush created L0@5 N·42648 S·1MiB "n:\x00..ver,v80314":"n:\xff..ing,v58652"
+10:46:44.277795 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+10:46:44.278103 memdb@flush committed F·1 T·25.879205ms
+10:46:44.278718 journal@remove removed @2
+10:46:44.795680 table@compaction L0·2 -> L1·0 S·2MiB Q·84313
+10:46:44.844498 table@build created L1@6 N·32424 S·1MiB "n:\x00..ver,v80314":"version,v1"
+10:46:44.844629 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+10:46:44.845294 table@compaction committed F-1 S-551KiB Ke·0 D·51850 T·49.529225ms
+10:46:44.845831 table@remove removed @5
+10:46:44.846209 table@remove removed @3
+10:59:45.012892 memdb@flush N·43241 S·3MiB
+10:59:45.041147 memdb@flush created L0@8 N·43241 S·1MiB "n:\x00..ing,v86196":"n:\xff..ing,v85268"
+10:59:45.041201 version@stat F·[1 1] S·2MiB[1MiB 1MiB] Sc·[0.25 0.02]
+10:59:45.041520 memdb@flush committed F·1 T·28.551271ms
+10:59:45.042189 journal@remove removed @4
+10:59:45.863750 table@compaction L0·1 -> L1·1 S·2MiB Q·127558
+10:59:45.915434 table@build created L1@9 N·42042 S·2MiB "n:\x00..ver,v80314":"n:\xf8..ing,v46442"
+10:59:45.917660 table@build created L1@10 N·1148 S·58KiB "n:\xf8..ing,v28683":"version,v1"
+10:59:45.917723 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.02]
+10:59:45.918012 table@compaction committed F~ S-481KiB Ke·0 D·32475 T·54.181864ms
+10:59:45.918240 table@remove removed @8
+10:59:45.918522 table@remove removed @6
